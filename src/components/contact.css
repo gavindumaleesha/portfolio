@@ -1,0 +1,54 @@
+.ftImg {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 90vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/ftImg.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 100%;
+    
+  }
+
+.heading{
+    padding: 10%;
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+ } 
+
+ .footer{
+    background-color: #fdc435;
+    padding: 20px 0;
+
+ }
+
+ .icon {
+    margin-bottom: 10px; /* Adjust the margin as needed */
+  }
+
+  .contactIcons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .contactIcon {
+    margin-bottom: 10px;
+  }
+  
+  .contactIcon a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #333; /* Set the color you desire */
+  }
+  
+  .contactIcon span {
+    margin-left: 10px; /* Adjust the margin as needed */
+    font-size: 16px; /* Increased font size */
+    text-align: center;
+  }
+  

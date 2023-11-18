@@ -1,0 +1,35 @@
+.eduHeading {
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:500;
+  }
+
+  .eduBody {
+    font-size: medium;
+  }
+  
+  .eduBody .card {
+    margin-bottom: 20px; /* Adjust the value as needed */
+  }
+
+  @media (max-width: 767px) {
+    .eduHeading {
+      font-size: 3rem;
+    }
+  
+    .eduBody {
+      margin-top: 10px;
+    }
+  }
+  
+  .align-items-center {
+    padding-top: 10%;
+  }
+  
+  .eduBody .card-header {
+    background-color: #fdc435; /* Set the background color to yellow */
+  }

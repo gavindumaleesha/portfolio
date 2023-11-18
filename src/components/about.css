@@ -1,0 +1,32 @@
+.aboutHeading {
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+  }
+
+   .cardBody{
+    font-size: medium;
+  } 
+    
+  
+  @media (max-width: 767px) {
+    .aboutHeading {
+      font-size: 3rem;
+    }
+  
+    .cardBody {
+      margin-top: 10px;
+    }
+  }
+  
+  .align-items-center{
+    padding-top: 10%;
+  }
+
+  .pharagraph{
+    text-align: justify;
+  }
